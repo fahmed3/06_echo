@@ -1,0 +1,6 @@
+{% extends "root.html" %}
+
+{% block content1 %}
+<h1> Hi, {{user}} <br>
+  Request method used: {{method}} </h1>
+{% endblock %}
